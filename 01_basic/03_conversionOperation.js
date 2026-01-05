@@ -28,11 +28,10 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 // "" => false
 // "nadim" => true
 
-
 let sumNumber = 33
 let stringNumber = String(sumNumber)
-//console.log(stringNumber);
-//console.log(typeof stringNumber);
+console.log(stringNumber)
+console.log(typeof stringNumber)
 
 
 // **************************** Operations *******************************
