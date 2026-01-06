@@ -40,3 +40,28 @@ console.log(typeof outsideTemp);
 console.log(typeof anotherId);
 
 
+// ***************************************************************************
+
+//   Stack (Primitive) , Heap (Non-primitive)
+
+
+let myYoutubename = "Ytprogram1m"
+
+let anothername = myYoutubename
+anothername = "nadimakram"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+
+let userOne = {
+    email: "nadimakram759@gmail.com",
+    upi: "nadim@ybl"
+}
+
+let userTwo = userOne
+userTwo.email = "goutam602@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
