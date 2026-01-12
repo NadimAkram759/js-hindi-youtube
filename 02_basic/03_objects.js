@@ -33,5 +33,10 @@ jsUser.greeting = function(){
     console.log("Hello js user");
     
 }
+jsUser.greetingTwo = function(){
+    console.log(`Hello js user, ${this.name}`);
+    
+}
 
 console.log(jsUser.greeting());
+console.log(jsUser.greetingTwo());
